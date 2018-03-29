@@ -63,6 +63,24 @@ en:
     create:
       welcome: "Welcome to the Sample App!"
       error: "Sign up failed"
+    edit:
+      edit: "Edit user"
+      update_profile: "Update your profile"
+      confirmation: "Confirmation"
+      save: "Save changes"
+      change: "change"
+      please_login: "Please log in"
+    update:
+      success: "Update profile success"
+      fail: "Update profile fail"
+    index:
+      all_user: "All users"
+    user:
+      delete: "Delete"
+      sure: "You sure?"
+    destroy:
+      delete_sucess: "User deleted"
+      delete_failed: "User deleted"
   helpers:
     application_helper:
       app: "Ruby On Rails Tutorial"

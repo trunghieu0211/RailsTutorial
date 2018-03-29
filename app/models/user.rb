@@ -2,6 +2,8 @@ class User < ApplicationRecord
   VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-]+(\.[a-z\d\-]+)*\.[a-z]+\z/i
   attr_accessor :remember_token
 
+  scope :select_user, ->{select :id, :name, :email, :is_admin}
+
   before_save {email.downcase!}
   has_secure_password
 
@@ -11,7 +13,8 @@ class User < ApplicationRecord
     length: {maximum: Settings.user.email.max_length},
     format: {with: VALID_EMAIL_REGEX},
     uniqueness: {case_sensitive: false}
-  validates :password, length: {minimum: Settings.user.password.min_length}
+  validates :password, length: {minimum: Settings.user.password.min_length},
+    allow_nil: true
 
   class << self
     def digest string

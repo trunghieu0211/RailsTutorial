@@ -8,3 +8,5 @@ user:
   helper:
     gravatar:
       size: 80
+  user:
+    avatar_size: 50
