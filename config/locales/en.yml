@@ -45,6 +45,12 @@ en:
       home: "Home"
       help: "Help"
       log_in: "Login"
+      users: "Users"
+      profile: "Profile"
+      settings: "Settings"
+      logout: "Log out"
+      login: "Log in"
+      account: "Account"
   users:
     new:
       signup: "Sign up"
@@ -64,3 +70,13 @@ en:
     error_messages:
       form_contain: "The form contains"
       error: "error"
+  sessions:
+    new:
+      login: "Log in"
+      new_user: "New user?"
+      signup: "Sign up now!"
+    create:
+      success: "Login success"
+      login_fail: "Invalid email/password combination"
+    destroy:
+      logout_success: "Log out success"
