@@ -8,5 +8,6 @@ user:
   helper:
     gravatar:
       size: 80
-  user:
-    avatar_size: 50
+  avatar_size: 50
+  password:
+    reset_time_expired: 2
