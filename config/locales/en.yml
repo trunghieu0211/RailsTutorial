@@ -63,6 +63,7 @@ en:
     create:
       welcome: "Welcome to the Sample App!"
       error: "Sign up failed"
+      check_mail: "Please check your email to activate your account."
     edit:
       edit: "Edit user"
       update_profile: "Update your profile"
@@ -97,5 +98,20 @@ en:
     create:
       success: "Login success"
       login_fail: "Invalid email/password combination"
+      not_actived: "Account not activated."
     destroy:
       logout_success: "Log out success"
+  account_activations:
+    edit:
+      fail: "Invalid activation link"
+      actived: "Account activated!"
+  user_mailer:
+    account_activation:
+      activation: "Account activation"
+      sample_app: "Sample App"
+      hi: "Hi"
+      welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
+      active: "Activate"
+    password_reset:
+      hi: "Hi"
+      url: "to@example.org"
