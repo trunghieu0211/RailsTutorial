@@ -5,9 +5,14 @@ user:
     max_length: 100
   password:
     min_length: 8
+    reset_time_expired: 2
   helper:
     gravatar:
       size: 80
   avatar_size: 50
-  password:
-    reset_time_expired: 2
+micropost:
+  content:
+    max_length: 140
+  max_picture_size: 5
+feed:
+  number_feed: 5

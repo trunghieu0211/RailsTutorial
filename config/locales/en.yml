@@ -82,6 +82,8 @@ en:
     destroy:
       delete_sucess: "User deleted"
       delete_failed: "User deleted"
+    show:
+      microposts: "Microposts"
   helpers:
     application_helper:
       app: "Ruby On Rails Tutorial"
@@ -89,6 +91,12 @@ en:
     error_messages:
       form_contain: "The form contains"
       error: "error"
+    user_info:
+      view_info: "view my profile"
+      micropost: "micropost"
+    micropost_form:
+      compose_micropost: "Compose new micropost..."
+      post: "Post"
   sessions:
     new:
       login: "Log in"
@@ -132,3 +140,12 @@ en:
       reset_password: "Reset password"
       confirmation: "Confirmation"
       update_pass: "Update password"
+  microposts:
+    micropost:
+      posted: "Posted"
+      ago: "ago."
+      delete: "Delete"
+      confirm: "You sure??"
+    create:
+      created: "Micropost created!"
+      created_fail: "Micropost not created!"
