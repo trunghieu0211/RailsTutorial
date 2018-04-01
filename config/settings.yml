@@ -16,3 +16,5 @@ micropost:
   max_picture_size: 5
 feed:
   number_feed: 5
+picture:
+  resize_limit: 400

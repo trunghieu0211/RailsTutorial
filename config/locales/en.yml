@@ -84,6 +84,13 @@ en:
       delete_failed: "User deleted"
     show:
       microposts: "Microposts"
+    follow:
+      follow: "Follow"
+    unfollow:
+      unfollow: ""
+    show_follow:
+      profile: "view my profile"
+      micropost: "Microposts:"
   helpers:
     application_helper:
       app: "Ruby On Rails Tutorial"
@@ -97,6 +104,9 @@ en:
     micropost_form:
       compose_micropost: "Compose new micropost..."
       post: "Post"
+    stats:
+      following: "following"
+      followers: "followers"
   sessions:
     new:
       login: "Log in"

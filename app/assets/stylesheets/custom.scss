@@ -210,3 +210,29 @@ input {
     resize: none;
   }
 }
+
+.stats {
+  margin-top: 0;
+  overflow: auto;
+  padding: 0;
+  a {
+    float: left;
+    font-weight: bold;
+    padding: 0 10px;
+
+    &:hover {
+      color: $gray;
+      text-decoration: none;
+    }
+  }
+}
+
+.follow-form {
+  width: 100px;
+  .follow-btn {
+    @extend .btn, .btn-primary;
+  }
+  .unfollow-btn {
+    @extend .btn, .btn-default;
+  }
+}
